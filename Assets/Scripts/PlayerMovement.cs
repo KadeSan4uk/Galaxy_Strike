@@ -6,8 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float controlSpeed = 10f;
     [SerializeField] float xClampRange = 5f;
-    [SerializeField] float yMaxClampRange = 20f;
-    [SerializeField] float yMinClampRange = -10f;
+    [SerializeField] float yClampRange = 20f;
 
     [SerializeField] float controllRollFactor = 20f;
     [SerializeField] float rotationSpeed = 5f;
@@ -40,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         float rawYPos = transform.localPosition.y + yOffset;
 
         float clampedXPos = Mathf.Clamp(rawXPos, -xClampRange, xClampRange);
-        float clampedYPos = Mathf.Clamp(rawYPos, yMinClampRange, yMaxClampRange);
+        float clampedYPos = Mathf.Clamp(rawYPos, -yClampRange, yClampRange);
 
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, 0f);
     }
