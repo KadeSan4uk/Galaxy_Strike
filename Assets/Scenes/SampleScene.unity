@@ -611,6 +611,7 @@ MonoBehaviour:
   lasers:
   - {fileID: 1667294270}
   - {fileID: 1969065767}
+  crosshair: {fileID: 1176371456}
 --- !u!1 &718296948
 GameObject:
   m_ObjectHideFlags: 0
