@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,12 +9,26 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float yMaxClampRange = 20f;
     [SerializeField] float yMinClampRange = -10f;
 
-    Vector2 movement;
+    [SerializeField] float controllRollFactor = 20f;
+    [SerializeField] float rotationSpeed = 5f;
+    [SerializeField] float controllPitchFactor = 20f;
 
+    Vector2 movement;
 
     void Update()
     {
         ProcessTranslation();
+        ProcessRotation();
+    }
+
+    private void ProcessRotation()
+    {
+        float roll = -controllRollFactor * movement.x;
+        float pitch = -controllPitchFactor * movement.y;
+
+        Quaternion targetSidesRotation = Quaternion.Euler(pitch, 0f, roll);
+
+        transform.localRotation = Quaternion.Lerp(transform.localRotation, targetSidesRotation, rotationSpeed * Time.deltaTime);
     }
 
     private void ProcessTranslation()
