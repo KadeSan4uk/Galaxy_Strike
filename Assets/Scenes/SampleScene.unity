@@ -525,6 +525,7 @@ GameObject:
   - component: {fileID: 628139224}
   - component: {fileID: 628139226}
   - component: {fileID: 628139227}
+  - component: {fileID: 628139228}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -664,6 +665,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &628139228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628139221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2adfa4caed1bdf4ba44595438fe4452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &718296948
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,6 +860,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 628139222}
     m_Modifications:
+    - target: {fileID: 3505081385726181600, guid: 89d5838ece669764f917b56dbd38a5ed, type: 3}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7479429133549552622, guid: 89d5838ece669764f917b56dbd38a5ed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1581,7 +1598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7708d606d16e7df4bb5fc68fc20ea46a, type: 3}
       propertyPath: m_Name
-      value: Dropship_02_Red
+      value: TestEnemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1682,6 +1699,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 628139222}
     m_Modifications:
+    - target: {fileID: 3505081385726181600, guid: 89d5838ece669764f917b56dbd38a5ed, type: 3}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7479429133549552622, guid: 89d5838ece669764f917b56dbd38a5ed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
