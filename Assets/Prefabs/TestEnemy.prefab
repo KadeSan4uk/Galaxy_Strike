@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7708d606d16e7df4bb5fc68fc20ea46a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 268.9
+      value: 242.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7708d606d16e7df4bb5fc68fc20ea46a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af6b9d61c5a751c45817f75f2afeb34b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyVFX: {fileID: 1340138508056176163, guid: 7c84a694c406067489841e202cb546a7, type: 3}
+  destroyVFX: {fileID: 4523574351161727229, guid: fc4681f9f1f3c364caed812ffea16914, type: 3}
 --- !u!65 &4108804255348648111
 BoxCollider:
   m_ObjectHideFlags: 0

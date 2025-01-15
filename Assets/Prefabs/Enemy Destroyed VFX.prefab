@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1340138508056176163, guid: 7c84a694c406067489841e202cb546a7, type: 3}
       propertyPath: m_Name
-      value: Base Destroyed VFX
+      value: Enemy Destroyed VFX
       objectReference: {fileID: 0}
     - target: {fileID: 2177293484036076337, guid: 7c84a694c406067489841e202cb546a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51,6 +51,26 @@ PrefabInstance:
     - target: {fileID: 2177293484036076337, guid: 7c84a694c406067489841e202cb546a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7274670620352204385, guid: 7c84a694c406067489841e202cb546a7, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7274670620352204385, guid: 7c84a694c406067489841e202cb546a7, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 207dd3bdf1f38fe4c8ce9045b3576aa2, type: 2}
+    - target: {fileID: 7274670620352204385, guid: 7c84a694c406067489841e202cb546a7, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5fbcee9028e6f2846b0705ce71b31fae, type: 2}
+    - target: {fileID: 7283999360061278613, guid: 7c84a694c406067489841e202cb546a7, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283999360061278613, guid: 7c84a694c406067489841e202cb546a7, type: 3}
+      propertyPath: TrailModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
