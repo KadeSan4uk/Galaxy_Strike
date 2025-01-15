@@ -50,23 +50,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1671101850536540600, guid: ba16ba67732a1944ab322d5bbc4b3a85, type: 3}
       propertyPath: m_Name
-      value: Enemy 2
+      value: Enemy 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429306620022858010, guid: ba16ba67732a1944ab322d5bbc4b3a85, type: 3}
+      propertyPath: m_Size.x
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6429306620022858010, guid: ba16ba67732a1944ab322d5bbc4b3a85, type: 3}
       propertyPath: m_Size.y
       value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6429306620022858010, guid: ba16ba67732a1944ab322d5bbc4b3a85, type: 3}
-      propertyPath: m_Size.z
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429306620022858010, guid: ba16ba67732a1944ab322d5bbc4b3a85, type: 3}
       propertyPath: m_Center.y
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6429306620022858010, guid: ba16ba67732a1944ab322d5bbc4b3a85, type: 3}
       propertyPath: m_Center.z
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
