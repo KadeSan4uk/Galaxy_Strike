@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1671101850536540600, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
       propertyPath: m_Name
-      value: ButterflyShip1
+      value: ButterflyShip
       objectReference: {fileID: 0}
     - target: {fileID: 6429306620022858010, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
       propertyPath: m_Size.x
@@ -67,6 +67,14 @@ PrefabInstance:
     - target: {fileID: 6429306620022858010, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
       propertyPath: m_Center.z
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893047795504901821, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
+      propertyPath: hitPoint
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893047795504901821, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
+      propertyPath: scoreValue
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
