@@ -867,6 +867,7 @@ RectTransform:
   m_Children:
   - {fileID: 1176371456}
   - {fileID: 1536667563}
+  - {fileID: 1428949164}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -997,7 +998,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 279491715}
-  - {fileID: 1428949164}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1403171178
@@ -1119,15 +1119,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428949163}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -63.93329}
-  m_LocalScale: {x: 0.65729165, y: 0.65729165, z: 0.65729165}
+  m_LocalPosition: {x: 0, y: 0, z: -100.69888}
+  m_LocalScale: {x: 1.0352749, y: 1.0352749, z: 1.0352749}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1388147412}
+  m_Father: {fileID: 1346224935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -524.0775, y: 532.76373}
+  m_AnchoredPosition: {x: 70, y: -63}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1428949165
@@ -1286,10 +1286,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Nehpets: We''re glad to have you here lieutenant.  We could really use
-    your help!
-
-'
+  m_text: 'Nehpets: We''re glad to have you here Lieutenant.  We could really use
+    your help!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
