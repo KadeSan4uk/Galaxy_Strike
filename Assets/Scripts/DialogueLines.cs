@@ -9,7 +9,15 @@ public class DialogueLines : MonoBehaviour
     int currentLine = 0;
     public void NextDialogueLine()
     {
-        currentLine++;
-        dialogueText.text = timelineTextLines[currentLine];
+        if (currentLine < timelineTextLines.Length - 1)
+        {
+            currentLine++;
+            dialogueText.text = timelineTextLines[currentLine];
+        }
+        else
+        {
+            currentLine = 0;
+        }
+            
     }
 }
