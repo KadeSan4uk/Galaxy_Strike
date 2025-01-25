@@ -55,7 +55,7 @@ public class PlayerWeapon : MonoBehaviour
         foreach (var laser in lasers)
         {
             Vector3 fireDirection = targetPoint.position - this.transform.position;// вычесление Вектора направления от лазеров до таргета. 
-            Quaternion rotationToTarget = Quaternion.LookRotation(fireDirection);// вычесление лазеров корабля в сторону таргета
+            Quaternion rotationToTarget = Quaternion.LookRotation(fireDirection);// вычесление угла(ротации) лазеров корабля в сторону таргета
             laser.transform.rotation = rotationToTarget;// сам поворот ласера в сторону таргета
         }
     }
