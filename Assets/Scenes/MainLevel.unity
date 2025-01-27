@@ -714,7 +714,6 @@ GameObject:
   m_Component:
   - component: {fileID: 279491715}
   - component: {fileID: 279491716}
-  - component: {fileID: 279491717}
   m_Layer: 0
   m_Name: Dualogue
   m_TagString: Untagged
@@ -760,36 +759,6 @@ MonoBehaviour:
   - 'Kcir: Struth!  Looks like the galaxy just got a little more safe.'
   - 'Nehpets: Yeeeehaw!!  You did it!'
   dialogueText: {fileID: 1536667564}
---- !u!114 &279491717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279491714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: 8c2d88e96514ed6428654cec75967bdf, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 279491716}
-          m_TargetAssemblyTypeName: DialogueLines, Assembly-CSharp
-          m_MethodName: NextDialogueLine
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 1
 --- !u!1 &287473176
 GameObject:
   m_ObjectHideFlags: 0
@@ -3602,6 +3571,7 @@ Transform:
   m_Children:
   - {fileID: 279491715}
   - {fileID: 1752587933}
+  - {fileID: 1591181570}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1403171178
@@ -4425,12 +4395,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591181568}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1388147412}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1596096315
 PrefabInstance:
@@ -5833,10 +5803,9 @@ SceneRoots:
   - {fileID: 1772682241491681183}
   - {fileID: 425115812}
   - {fileID: 1346224935}
-  - {fileID: 287473179}
-  - {fileID: 1591181570}
   - {fileID: 1268708388}
   - {fileID: 1388147412}
   - {fileID: 974649801}
   - {fileID: 1563735656}
   - {fileID: 1736428799}
+  - {fileID: 287473179}

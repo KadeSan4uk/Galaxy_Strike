@@ -89,6 +89,10 @@ PrefabInstance:
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 6893047795504901821, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
+      propertyPath: destroyVFX
+      value: 
+      objectReference: {fileID: 4523574351161727229, guid: 04fa4e133d35f21409bbaa2c892b7e0c, type: 3}
+    - target: {fileID: 6893047795504901821, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
       propertyPath: scoreValue
       value: 1000
       objectReference: {fileID: 0}
