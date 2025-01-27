@@ -257,6 +257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 34142953}
   - component: {fileID: 34142954}
+  - component: {fileID: 34142955}
   m_Layer: 0
   m_Name: MasterTimelinePro
   m_TagString: Untagged
@@ -298,37 +299,104 @@ PlayableDirector:
     value: {fileID: 2100379078}
   - key: {fileID: -2071996519496274724, guid: 1d827ea0414daa645a386737302ffa2f, type: 2}
     value: {fileID: 425115811}
+  - key: {fileID: 1299527482566615627, guid: 1d827ea0414daa645a386737302ffa2f, type: 2}
+    value: {fileID: 1736428798}
   m_ExposedReferences:
     m_References:
+    - dab1edf2b04783c47a0ce62b73dea5a2: {fileID: 279491714}
     - 8b2835b17cf849b4fb14a321d4b5daf3: {fileID: 4155332599016593989}
+    - 31152b66e1609074e857a62d5fa1a3ad: {fileID: 1676533680}
+    - 8975d61d3baedc74ea66a86479bf696f: {fileID: 1536667562}
     - 02611a304311e824d8c380c5008cf5bd: {fileID: 82682465}
     - 1b7db97b8263cdd42b2c5cc6c84c52ea: {fileID: 806687869}
     - 4892d4d363fc80746ab689e1fd61e5f8: {fileID: 1474491935}
     - 8b7ebd67e1a3b754cac4801167941c49: {fileID: 1415827994}
+    - 55fb7e8ef43bcbe4eb81687f955311e1: {fileID: 279491714}
     - 2bb2cf7ed278d3345be6409b8db97e1e: {fileID: 1255289348}
     - 6a4d70c6caa8995499fba9a14b6dfa83: {fileID: 719391745}
     - 4fb59607f67643a41b762622e95a8b5c: {fileID: 806687869}
+    - 5f9763525ed2a2c48818b39662e6bbf6: {fileID: 1536667562}
     - ab245498f2ebfbd4f8d42b79b18f0a16: {fileID: 5511394338500849418}
+    - 01f146374fe32bc4c9aef56621c38fd3: {fileID: 279491714}
+    - 3b5ceded4d621ac4394f5df2ccf21a19: {fileID: 1536667562}
+    - 4d862daddd0ee674d8363aa5238771ca: {fileID: 1566043406}
+    - 186c5467afa4a21459fe782b2df31cac: {fileID: 1566043406}
+    - a6ab8fdcc781c234db8da3b34275e806: {fileID: 1536667562}
+    - abf922e43d3effa46b746bc8134fdc48: {fileID: 279491714}
+    - 0dec524b9352ccf45b8ae80b2d5dc751: {fileID: 1536667562}
     - 40cb1a63acf4c5c418272008c1d7893d: {fileID: 1296871909}
     - 2748b8450859a95419bf53f6d6d7f04b: {fileID: 4155332599016593989}
     - 2cf686a3d8f72754091e874a57d4a37c: {fileID: 1754321266}
+    - a4f807b7a5276b042b91801d58f05be0: {fileID: 279491714}
+    - 68a6ca2e431f8a8459b1053df92dc659: {fileID: 1536667562}
     - b611f7d4eafa8c645a9cb9e1c467aad5: {fileID: 2879343511001897620}
     - 26fe6f7ed1e5a4e42bf89e466c7f8378: {fileID: 806687869}
+    - 40380a3a7d5a8894380e57c5ba536ee2: {fileID: 1566043406}
     - f6105f6086456d24e8f2596d4e69cfa7: {fileID: 1415827994}
     - e3478bbf78ba3da479f03f03b54c2b67: {fileID: 905733541}
     - 8588a165838953a42bca861769c59101: {fileID: 2879343511001897620}
     - a14330643ffbe044c82721d932fd05a0: {fileID: 1255289348}
     - 044f7357548c6bc47ac2836eca52fed8: {fileID: 543697920}
     - ee7c8120e6fe7514da062836f9934df6: {fileID: 1474491935}
+    - fae0d92a1f178cf4fa05e03aeef94df8: {fileID: 279491714}
+    - a3a664b98f1046c4eb42ebc0e0f3b460: {fileID: 1536667562}
     - 1f9354f7ac095894ba8afbc5fa45a66d: {fileID: 543697920}
     - 9b77406058ea0f94e94db90f79261a66: {fileID: 82682465}
     - cd7d835cb4e1cba49b601fb5e3fb2e07: {fileID: 5511394338500849418}
+    - 5d8714b6d0ad27c4b99b6b0451715d9a: {fileID: 279491714}
     - 80aff74981a793c4285efa2647768e73: {fileID: 41914631}
+    - f452a0338a51ae64cb7128c91923bd76: {fileID: 279491714}
+    - 90b7346a26c6e744c8c439bf3beb092a: {fileID: 1566043406}
     - 50674df6ac2beaa43b080eb6e3a21bc0: {fileID: 2879343511001897620}
+    - 023f2a02fc397c4418a794e6e8ea9c1a: {fileID: 1566043406}
+    - 8757816cbab85754596c473f5346fbfc: {fileID: 279491714}
     - be41ba885dc72c84287a42bbb077bdc6: {fileID: 1754321266}
+    - 031c9cc1771ba8e48849ab522fd102bd: {fileID: 279491714}
+    - 1ecc88793b8a9104e94ecad9daeb01a2: {fileID: 1676533680}
+    - 9dd1417d62afffe4d863719ddadbf115: {fileID: 1676533680}
+    - ce81227731bd9a941896cd406fc96811: {fileID: 279491714}
     - 1e63dc5af3c2df74aa7366a7406a565e: {fileID: 1474491935}
     - 9b5fa1a0fcb82be43bac6f73816d8da2: {fileID: 2879343511001897620}
+    - 1c1c24750db1161449055044d8e9ad5d: {fileID: 1536667562}
+    - 1c0953edbf1337c429413391e5a0f013: {fileID: 1536667562}
     - e418afc043385274b86e37788f0ddf88: {fileID: 41914631}
+    - 3e68b967d0d28a543a83e42ee924f54f: {fileID: 1536667562}
+    - b2a92f4375ec3c046ba07c90e06c5608: {fileID: 1676533680}
+    - f1f44752520646446b66a9a3e7bd8f06: {fileID: 279491714}
+    - dbc460aca32ab114cac283984346334e: {fileID: 1676533680}
+    - 4a509c21f55454e4e87270dacf6f92e0: {fileID: 279491714}
+    - 74dd87c21c2461a40927f8083ce8ef1d: {fileID: 1566043406}
+    - a2e6f5acce8cf6543adf2daeb8ef31f8: {fileID: 1536667562}
+--- !u!114 &34142955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34142952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: cba66d7244ec7624085e315567b2bd20, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 279491716}
+          m_TargetAssemblyTypeName: DialogueLines, Assembly-CSharp
+          m_MethodName: NextDialogueLine
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &41914626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -685,6 +753,12 @@ MonoBehaviour:
   - 'Nehpets: We''re glad to have you here Lieutenant.  We could really use your
     help!'
   - 'Nehpets: Like shooting fish in a barrel!'
+  - 'Nehpets: It''s a trap!  Get out of there.'
+  - 'Kcir: Crikey!  Looks like you could use a hand.'
+  - 'Nehpets: Never thought I''d see your face around here general... '
+  - 'Kcir: Righteo let''s finish this once and for all.'
+  - 'Kcir: Struth!  Looks like the galaxy just got a little more safe.'
+  - 'Nehpets: Yeeeehaw!!  You did it!'
   dialogueText: {fileID: 1536667564}
 --- !u!114 &279491717
 MonoBehaviour:
@@ -4055,7 +4129,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Nehpets: Like shooting fish in a barrel!'
+  m_text: 'Nehpets: We''re glad to have you here Lieutenant.  We could really use
+    your help!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4291,7 +4366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1566043407
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4667,6 +4742,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715125214}
   m_CullTransparentMesh: 1
+--- !u!1 &1736428797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736428799}
+  - component: {fileID: 1736428798}
+  m_Layer: 0
+  m_Name: DialogueAudioSorce
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1736428798
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736428797}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1736428799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736428797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -171.08531, y: 34.241142, z: 250.57254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1752587932
 GameObject:
   m_ObjectHideFlags: 0
@@ -5635,3 +5839,4 @@ SceneRoots:
   - {fileID: 1388147412}
   - {fileID: 974649801}
   - {fileID: 1563735656}
+  - {fileID: 1736428799}
