@@ -25,10 +25,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461343621291571157}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 52.681656, y: -340.036, z: 79.45607}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5953646694652482034}
   m_Father: {fileID: 0}
@@ -104,7 +104,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossShip
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8823279680596139798, guid: 06fa2b4e4fffa7e4f917e738cf52f5fe, type: 3}
+    - {fileID: 8999014641774792881, guid: 06fa2b4e4fffa7e4f917e738cf52f5fe, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

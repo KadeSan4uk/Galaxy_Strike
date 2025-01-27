@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1671101850536540600, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
       propertyPath: m_Name
-      value: BossShip
+      value: FriendlyBase
       objectReference: {fileID: 0}
     - target: {fileID: 6429306620022858010, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
       propertyPath: m_Size.x
@@ -80,7 +80,9 @@ PrefabInstance:
       propertyPath: scoreValue
       value: 50
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6893047795504901821, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
+    - {fileID: 6429306620022858010, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4179635020528358868, guid: af81b8c62a0bbd349a015b47bb4d4442, type: 3}
     m_AddedGameObjects:

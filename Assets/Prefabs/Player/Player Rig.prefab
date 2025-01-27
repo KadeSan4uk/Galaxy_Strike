@@ -260,10 +260,10 @@ MonoBehaviour:
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
-  m_Antialiasing: 0
+  m_Antialiasing: 3
   m_AntialiasingQuality: 2
   m_StopNaN: 0
-  m_Dithering: 0
+  m_Dithering: 1
   m_ClearDepth: 1
   m_AllowXRRendering: 1
   m_AllowHDROutput: 1
@@ -274,12 +274,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    m_Quality: 3
+    m_Quality: 4
     m_FrameInfluence: 0.1
     m_JitterScale: 1
     m_MipBias: 0
     m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
+    m_ContrastAdaptiveSharpening: 1
 --- !u!1001 &1677745316704736485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -303,6 +303,22 @@ PrefabInstance:
     - target: {fileID: 1576911484596364114, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2.7600205
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276411836174322176, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276411836174322176, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276411836174322176, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276411836174322176, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4559401186358009698, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -344,6 +360,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4749184821172530487, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749184821172530487, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
+      propertyPath: m_Size.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749184821172530487, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
+      propertyPath: m_Center.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5362717781783659951, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
       propertyPath: m_Name
       value: PlayerShip
@@ -364,6 +392,10 @@ PrefabInstance:
       propertyPath: targetPoint
       value: 
       objectReference: {fileID: 6092241248601347960}
+    - target: {fileID: 8355214471332298827, guid: b9127ebdc3b88c24b8e5295d11fd00ae, type: 3}
+      propertyPath: lasers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
