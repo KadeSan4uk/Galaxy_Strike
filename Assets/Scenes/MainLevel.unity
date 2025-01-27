@@ -301,6 +301,8 @@ PlayableDirector:
     value: {fileID: 425115811}
   - key: {fileID: 1299527482566615627, guid: 1d827ea0414daa645a386737302ffa2f, type: 2}
     value: {fileID: 1736428798}
+  - key: {fileID: -6231079789351811522, guid: 1d827ea0414daa645a386737302ffa2f, type: 2}
+    value: {fileID: 1563735655}
   m_ExposedReferences:
     m_References:
     - dab1edf2b04783c47a0ce62b73dea5a2: {fileID: 279491714}
@@ -3791,7 +3793,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 'Score: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -4207,8 +4209,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 015fbd3a8fdbb3b4ba78195adff8f4c9, type: 3}
-  m_Resource: {fileID: 8300000, guid: 015fbd3a8fdbb3b4ba78195adff8f4c9, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
@@ -4368,7 +4370,7 @@ GameObject:
   - component: {fileID: 1591181570}
   - component: {fileID: 1591181569}
   m_Layer: 0
-  m_Name: Scoreboard
+  m_Name: ScoreboardManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

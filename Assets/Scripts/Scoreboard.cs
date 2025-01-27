@@ -10,6 +10,6 @@ public class Scoreboard : MonoBehaviour
     public void IncreaseScore(int amount)
     {
         score += amount;
-        scoreboardText.text = score.ToString();
+        scoreboardText.text = "Score: " + score.ToString();
     }
 }
