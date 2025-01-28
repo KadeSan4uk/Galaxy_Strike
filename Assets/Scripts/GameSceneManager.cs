@@ -4,9 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class GameSceneManager : MonoBehaviour
 {
-    public void LoadGameScene()
+    public void LoadMainScene()
     {
-        SceneManager.LoadScene(1, LoadSceneMode.Single);
+        SceneManager.LoadScene("MainLevel", LoadSceneMode.Single);
     }
 
     public void ReloadLevel()
@@ -17,8 +17,7 @@ public class GameSceneManager : MonoBehaviour
     IEnumerator ReloadSceneRoutine()
     {
         yield return new WaitForSeconds(1f);
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
-        SceneManager.LoadScene(currentSceneIndex, LoadSceneMode.Single);
+        SceneManager.LoadScene("ReloadLevel", LoadSceneMode.Single);        
     }
 }
