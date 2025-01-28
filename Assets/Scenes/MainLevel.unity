@@ -5478,6 +5478,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1176371456}
     - target: {fileID: 7258433925317776558, guid: e37342c5d77a56b4a851186eb3697abe, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258433925317776558, guid: e37342c5d77a56b4a851186eb3697abe, type: 3}
+      propertyPath: targetDistance
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258433925317776558, guid: e37342c5d77a56b4a851186eb3697abe, type: 3}
       propertyPath: 'lasers.Array.data[2]'
       value: 
       objectReference: {fileID: 5421396210707871104}
