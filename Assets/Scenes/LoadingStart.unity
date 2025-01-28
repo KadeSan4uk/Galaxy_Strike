@@ -785,11 +785,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timelineTextLines:
-  - 
-  - Loading..   27%
-  - Loading.    54%
-  - Loading..   79%
-  - Loading...  100% Complete.
+  - Loading...   10%
+  - Loading.      14%
+  - Loading..     19%
+  - Loading...    25%
+  - Loading.      32%
+  - Loading..     40%
+  - Loading...    49%
+  - Loading.      58%
+  - Loading..     65%
+  - Loading...    77%
+  - Loading.      86%
+  - Loading..     98%
+  - Loading...    100% Complete.
   dialogueText: {fileID: 1072337089}
 --- !u!1 &651201095
 GameObject:
@@ -1725,10 +1733,18 @@ PlayableDirector:
   m_ExposedReferences:
     m_References:
     - 742dc9e8f521e294680effdaf36a4045: {fileID: 1072337087}
+    - 73777e56f1cebb641af33143fe98faa9: {fileID: 1072337087}
+    - 7c1c8dbbe1e18a145afb225a2ddbddcf: {fileID: 1072337087}
+    - c2e2ed32a9422f246be2f27dcf5d1d46: {fileID: 1072337087}
     - 231f93d360875f747a8810306e35983f: {fileID: 1072337087}
     - 9b19e255d187f2a44ba66ed481928c8f: {fileID: 1072337087}
+    - 05c50046b7da4eb4a8833c639c6df952: {fileID: 1072337087}
     - dedc2d59938e646418fd2a8eccfa2e5d: {fileID: 1072337087}
+    - 215875874f19be24a8c63e79389105ba: {fileID: 1072337087}
+    - ec6949d8b9f5af84dbd1b1f91a2b0f48: {fileID: 1072337087}
     - 19b2f75371ed35944a03cf9625f5fb93: {fileID: 1072337087}
+    - bb99556c658f6c24f86323aad162dd86: {fileID: 1072337087}
+    - 80f15af23f8bfbe419141749eae17892: {fileID: 1072337087}
 --- !u!1 &1737884588
 GameObject:
   m_ObjectHideFlags: 0
