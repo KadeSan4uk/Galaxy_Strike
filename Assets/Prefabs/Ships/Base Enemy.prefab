@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyVFX: {fileID: 4523574351161727229, guid: fc4681f9f1f3c364caed812ffea16914, type: 3}
-  hitPoint: 3
+  hitPoint: 1
   scoreValue: 10
 --- !u!1 &4179635020528358868
 GameObject:
